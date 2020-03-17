@@ -8,8 +8,7 @@ La formation Java JEE a pour objectif de former  des ingénieurs issus de diffé
 Il s'agit d'acquérir des bases techniques mais également d'apprendre un savoir-être indispensable : 
 travailler en groupe au sein d'une entreprise.
  Pour en savoir plus sur notre équipe et notre formation n'hesitez pas à consulter cette page :
- 
- [la meilleur formation POE JEE]:https://sites.google.com/view/inti2020/
+ [la meilleur formation POE JEE]: <https://sites.google.com/view/inti2020/>
  
 # JavaJdbcTutorial
 
