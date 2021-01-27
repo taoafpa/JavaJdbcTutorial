@@ -1,5 +1,5 @@
 # Formation CDA à l'AFPA
-[![N|Solid](https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1611326573313)](https://www.afpa.fr/)
+[![N|Solid](https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1611326573313)](https://sites.google.com/view/promotionfeynman)
 
 Le numérique, c'est l'avenir !
 
@@ -8,8 +8,9 @@ Nous avons tous déjà entendu cette phrase, mais qui a vraiment sauté le pas ?
 La formation CDA a pour objectif de former  des stagiaires  aux bases de la conception et developpement d'applications. 
 Il s'agit d'acquérir des bases techniques mais également d'apprendre un savoir-être indispensable : 
 travailler en groupe au sein d'une entreprise.
- Pour en savoir plus sur notre équipe et notre formation n'hesitez pas à consulter cette page :
- [la meilleur formation CDA c'est à ARRAS avec la promo Feynman]: <https://sites.google.com/view/promotionfeynman>
+ Pour en savoir plus sur notre équipe et notre formation n'hesitez pas à consulter la page de la meilleur formation CDA, c'est à ARRAS avec la promo Feynman :
+ [![N|Solid](https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1611326573313)](https://sites.google.com/view/promotionfeynman)
+
  
 # JavaJdbcTutorial
 
@@ -68,3 +69,4 @@ dans ConnectionUtils commanter la ligne mysql et décommanter la ligne oracle:
 
 Merci d'avoir testé notre tutoriale , 
 n'hesiter pas à vous mettre en contact avec notre équipe !
+ [![N|Solid](https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1611326573313)](https://sites.google.com/view/promotionfeynman)
