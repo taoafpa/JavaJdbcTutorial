@@ -1,11 +1,11 @@
-package org.o7planning.tutorial.jdbc.callablestatement;
+package fr.afpa.tutorial.jdbc.basic;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.SQLException;
- 
-import org.o7planning.tutorial.jdbc.ConnectionUtils;
+
+import fr.afpa.tutorial.jdbc.ConnectionUtils;
  
 public class CallableStatementExample {
  

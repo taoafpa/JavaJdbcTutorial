@@ -1,9 +1,9 @@
-package org.o7planning.tutorial.transaction;
+package fr.afpa.tutorial.transaction;
 
 import java.sql.Connection;
 import java.sql.SQLException;
- 
-import org.o7planning.tutorial.jdbc.ConnectionUtils;
+
+import fr.afpa.tutorial.jdbc.ConnectionUtils;
  
 public class TransactionExample {
  

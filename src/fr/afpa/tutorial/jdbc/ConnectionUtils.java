@@ -1,4 +1,4 @@
-package org.o7planning.tutorial.jdbc;
+package fr.afpa.tutorial.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -15,9 +15,9 @@ public class ConnectionUtils {
         // On doit commenter une ligne et laisser la ligne qui correspond 
     	// à la base de donnée qu'on souhaite utiliser
     	
-        //return MySQLConnUtils.getMySQLConnection();
+        // return MySQLConnUtils.getMySQLConnection();
     	// On utilise Oracle par défaut
-    	return OracleConnUtils.getOracleConnection();
+    	 return OracleConnUtils.getOracleConnection();
     }
  
     //

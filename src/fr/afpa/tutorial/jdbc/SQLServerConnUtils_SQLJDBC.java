@@ -1,14 +1,13 @@
-package org.o7planning.tutorial.jdbc;
+package fr.afpa.tutorial.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
  
-public class SQLServerConnUtils_JTDS {
- 
+public class SQLServerConnUtils_SQLJDBC {
  
    // Connect to SQLServer
-   // (Using JDBC Driver of JTDS library)
+   // (Using JDBC Driver: SQLJDBC)
    public static Connection getSQLServerConnection()
            throws SQLException, ClassNotFoundException {
        String hostName = "localhost";
@@ -17,25 +16,26 @@ public class SQLServerConnUtils_JTDS {
        String userName = "sa";
        String password = "1234";
  
-       return getSQLServerConnection(hostName, sqlInstanceName, database,
-               userName, password);
+       return getSQLServerConnection(hostName, sqlInstanceName,
+               database, userName, password);
    }
  
-   // Connect to SQLServer & using JTDS library
+   //
+   // Connect to SQLServer & using SQLJDBC Library.
    public static Connection getSQLServerConnection(String hostName,
            String sqlInstanceName, String database, String userName,
            String password) throws ClassNotFoundException, SQLException {
- 
+        
        // Declare the class Driver for SQLServer DB
        // This is necessary with Java 5 (or older)
        // Java6 (or newer) automatically find the appropriate driver.
        // If you use Java> 5, then this line is not needed.        
-       Class.forName("net.sourceforge.jtds.jdbc.Driver");
+       Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
  
-       // Example:
-       // jdbc:jtds:sqlserver://localhost:1433/simplehr;instance=SQLEXPRESS
-       String connectionURL = "jdbc:jtds:sqlserver://" + hostName + ":1433/"
-               + database + ";instance=" + sqlInstanceName;
+ 
+       // jdbc:sqlserver://ServerIp:1433/SQLEXPRESS;databaseName=simplehr
+       String connectionURL = "jdbc:sqlserver://" + hostName + ":1433"
+               + ";instance=" + sqlInstanceName + ";databaseName=" + database;
  
        Connection conn = DriverManager.getConnection(connectionURL, userName,
                password);

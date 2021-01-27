@@ -1,4 +1,4 @@
-package org.o7planning.tutorial.jdbc;
+package fr.afpa.tutorial.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,6 +10,8 @@ import java.sql.SQLException;
  * Cette class nous permet d'appeler une connection Oracle ou MySQL
  */
 public class MySQLConnUtils {
+	
+	
  
    // Connect to MySQL
    public static Connection getMySQLConnection() throws SQLException,

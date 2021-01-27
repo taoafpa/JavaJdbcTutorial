@@ -1,12 +1,12 @@
-package org.o7planning.tutorial.transaction;
+package fr.afpa.tutorial.transaction;
 
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.UUID;
- 
-import org.o7planning.tutorial.jdbc.ConnectionUtils;
+
+import fr.afpa.tutorial.jdbc.ConnectionUtils;
  
 public class BatchExample2 {
  

@@ -1,4 +1,4 @@
-package org.o7planning.tutorial.jdbc;
+package fr.afpa.tutorial.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
